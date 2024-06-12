@@ -10,10 +10,14 @@ const TopFeatures = () => {
       <img
         src={vector}
         alt="vector"
-        className="absolute w-full lg:max-w-[155px] max-w-[110px] left-0 lg:-top-[6%] -top-[3%] md:block hidden"
+        className="absolute w-full lg:max-w-[155px] pointer-events-none max-w-[110px] left-0 lg:-top-[6%] -top-[3%] md:block hidden"
       />
       <div className="container xl:max-w-[1164px] mx-auto xl:px-3 px-6 pt-[73px] relative z-10">
-        <img src={circle} alt="circle" className="absolute top-0 w-full" />
+        <img
+          src={circle}
+          alt="circle"
+          className="absolute top-0 w-full pointer-events-none"
+        />
         <div className="border border-solid border-pink rounded-full py-[6px] px-5 max-w-[132px] mx-auto mb-[10px]">
           <p className="text-white text-center sm:text-base text-sm text-nowrap">
             Top-features

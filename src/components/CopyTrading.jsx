@@ -10,7 +10,7 @@ const CopyTrading = () => {
       <img
         src={vector}
         alt="vector"
-        className="w-full lg:max-w-[215px] max-w-[160px] absolute lg:top-0 top-[21%] right-0 md:block hidden"
+        className="w-full lg:max-w-[215px] pointer-events-none max-w-[160px] absolute lg:top-0 top-[21%] right-0 md:block hidden"
       />
       <div className="w-[145px] h-[145px] bg-pink blur-[100px] animate-pulse absolute top-0 rounded-full"></div>
       <div className="container xl:max-w-[1164px] mx-auto xl:px-3 px-6 relative z-10">

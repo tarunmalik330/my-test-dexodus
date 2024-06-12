@@ -6,7 +6,7 @@ import TopFeatures from "./components/TopFeatures";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <FocusOnTrading />
       <TopFeatures />
       <CopyTrading />

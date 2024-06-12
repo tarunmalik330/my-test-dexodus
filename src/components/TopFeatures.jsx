@@ -39,7 +39,7 @@ const TopFeatures = () => {
                 <p className="text-white capitalize xl:text-xsm text-2xl font-medium leading-[140%] mb-3">
                   {obj.tittle}
                 </p>
-                <p className="text-white sm:text-base text-sm">
+                <p className="text-white leading-[140%] font-normal opacity-90 lg:max-w-[316px] sm:text-base text-sm">
                   {obj.description}
                 </p>
               </div>

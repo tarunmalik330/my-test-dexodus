@@ -18,11 +18,11 @@ const FocusOnTrading = () => {
               className="lg:max-w-[567px] mb-4"
               Heading="Simplified Trading, Enhanced Experience"
             />
-            <p className="sm:text-base text-sm lg:max-w-[482px] font-normal text-white leading-[140%] opacity-90 mb-4">
+            <p className="sm:text-base text-sm lg:max-w-[482px] font-normal text-white !leading-[140%] opacity-90 mb-4">
               Forget web3 complexity, at Dexodus we make it simple. Just trade.
               Enjoy an overall more intuitive trading experience.
             </p>
-            <p className="sm:text-base text-sm lg:max-w-[482px] font-normal text-white leading-[140%] opacity-90 lg:mb-12 mb-6">
+            <p className="sm:text-base text-sm lg:max-w-[482px] font-normal text-white !leading-[140%] opacity-90 lg:mb-12 mb-6">
               Escape Web3 Complexity with Dexodus: Trade Effortlessly,
               Experience Intuitive Simplicity
             </p>
@@ -38,7 +38,7 @@ const FocusOnTrading = () => {
                   <p className="flex gap-4 font-medium leading-[140%] text-white items-center text-2xl mb-3">
                     {obj.svg} {obj.tittle}
                   </p>
-                  <p className="text-white lg:max-w-[485px] sm:text-base text-sm leading-[140%] font-normal opacity-90">
+                  <p className="text-white lg:max-w-[485px] sm:text-base text-sm !leading-[140%] font-normal opacity-90">
                     {obj.description}
                   </p>
                 </div>

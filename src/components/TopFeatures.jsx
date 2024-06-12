@@ -10,7 +10,7 @@ const TopFeatures = () => {
       <img
         src={vector}
         alt="vector"
-        className="absolute w-full lg:max-w-[155px] pointer-events-none max-w-[110px] left-0 lg:-top-[6%] -top-[3%] md:block hidden"
+        className="absolute w-full xl:max-w-[180px] lg:max-w-[155px] pointer-events-none max-w-[110px] left-0 lg:-top-[6%] -top-[3%] md:block hidden"
       />
       <div className="container xl:max-w-[1164px] mx-auto xl:px-3 px-6 pt-[73px] relative z-10">
         <img

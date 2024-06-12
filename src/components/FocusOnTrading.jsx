@@ -2,6 +2,7 @@ import React from "react";
 import Heading from "./common/Heading";
 import CommonBtn from "./common/CommonBtn";
 import { focusTradingCard } from "./common/CommonHelper";
+import SubHeading from "./common/SubHeading";
 
 const FocusOnTrading = () => {
   return (
@@ -9,11 +10,10 @@ const FocusOnTrading = () => {
       <div className="container xl:max-w-[1164px] mx-auto xl:px-3 px-6">
         <div className="flex items-center flex-row flex-wrap">
           <div className="lg:w-6/12 w-full lg:pb-0 sm:pb-12 pb-9">
-            <div className="py-[4.82px] px-5 bg-primary border border-solid border-pink max-w-[159px] rounded-full mb-[10px]">
-              <p className="text-white text-nowrap leading-[140%] text-base font-normal">
-                Focus on Trading
-              </p>
-            </div>
+            <SubHeading
+              className="max-w-[159px]"
+              SubHeading="Focus on Trading"
+            />
             <Heading
               className="lg:max-w-[567px] mb-4"
               Heading="Simplified Trading, Enhanced Experience"

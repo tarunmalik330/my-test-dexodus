@@ -3,6 +3,7 @@ import automatedmirror from "../assets/images/webp/automated-mirror.webp";
 import Heading from "./common/Heading";
 import CommonBtn from "./common/CommonBtn";
 import vector from "../assets/images/webp/mirroe-vector.webp";
+import SubHeading from "./common/SubHeading";
 
 const CopyTrading = () => {
   return (
@@ -26,11 +27,10 @@ const CopyTrading = () => {
           </div>
           <div className="lg:w-6/12 w-full flex items-end justify-end">
             <div className="">
-              <div className="max-w-[133px] py-[4.82px] px-5 bg-primary border border-solid border-pink rounded-full mb-[10px]">
-                <p className="text-white text-nowrap leading-[140%] text-base font-normal">
-                  Copy Trading
-                </p>
-              </div>
+              <SubHeading
+                className="max-w-[133px] capitalize"
+                SubHeading="Copy Trading"
+              />
               <Heading
                 Heading="Automated Mirror Trading Platform"
                 className="lg:max-w-[509px] mb-4"

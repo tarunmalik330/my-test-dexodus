@@ -3,6 +3,7 @@ import Heading from "./common/Heading";
 import { featuresCardList } from "./common/CommonHelper";
 import circle from "../assets/images/webp/features-circle.webp";
 import vector from "../assets/images/webp/features-vector.webp";
+import SubHeading from "./common/SubHeading";
 
 const TopFeatures = () => {
   return (
@@ -18,11 +19,10 @@ const TopFeatures = () => {
           alt="circle"
           className="absolute top-0 w-full pointer-events-none"
         />
-        <div className="border border-solid border-pink rounded-full py-[6px] px-5 max-w-[132px] mx-auto mb-[10px]">
-          <p className="text-white text-center sm:text-base text-sm text-nowrap">
-            Top-features
-          </p>
-        </div>
+        <SubHeading
+          className="max-w-[132px] mx-auto"
+          SubHeading="Top-features"
+        />
         <Heading
           Heading="Discover Our Unique Features"
           className="capitalize text-center mb-4"

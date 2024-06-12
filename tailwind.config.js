@@ -19,7 +19,6 @@ module.exports = {
       },
       boxShadow: {
         btnshadow: "0px 5px 40px 0px #D0215D80",
-        whiteshadow: "#ffffff 0px 5px 15px;",
       },
       fontSize: {
         xsm: "30px",

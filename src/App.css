@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+/* =================================== FOCUS ON TRADING =================================== */
+.border-gradient::after {
+  content: "";
+  border-radius: inherit;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor !important;
+  mask-composite: exclude;
+}
+
+
+/* ========================= TOP FEATURED ========================= */
+.featured-card::after {
+  content: "";
+  border-radius: inherit;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor !important;
+  mask-composite: exclude;
+}
+
+/* ================================  READY TO MAKE YOUR MARK  ================================ */
+.ready-border-box::before {
+  content: "";
+  background: linear-gradient(180deg, #7B1F67 -15.63%, #D0215D 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
